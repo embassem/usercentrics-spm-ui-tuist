@@ -24,7 +24,8 @@ let package = Package(
         ),
         .target(
             name: "UsercentricsUITarget",
-            dependencies: ["Usercentrics", "UsercentricsUIFramework"]
+            dependencies: ["Usercentrics", "UsercentricsUIFramework"],
+            sources: ["Sources/UsercentricsUI"]
         ),
     ]
 )
