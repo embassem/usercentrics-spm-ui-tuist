@@ -10,7 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "UsercentricsUI",
-            targets: ["UsercentricsUI"]
+            targets: ["UsercentricsUITarget"]
         )
     ],
     dependencies: [
@@ -23,7 +23,7 @@ let package = Package(
             checksum: "44ec6c0c3d7897abfefc225a64f961169390970d4eda63ea8c45df468758c3d3"
         ),
         .target(
-            name: "UsercentricsUI",
+            name: "UsercentricsUITarget",
             dependencies: ["Usercentrics", "UsercentricsUIFramework"]
         ),
     ]
